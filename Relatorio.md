@@ -1,4 +1,4 @@
-# Relatório Desafio Novato Tema 2
+# Relatório Desafio Tema 2
 
 - **Cadastro de Cartas**: O programa solicita os dados de duas cartas e armazena em uma estrutura (`struct`).
     
@@ -23,3 +23,14 @@
 -  **Cadastro organizado por estado**: O código mantém a organização dos estados e permite o cadastro das cartas dentro deles.  
 	
 -  **Comparação entre as primeiras duas cartas cadastradas** (como exemplo).
+Escolha de dois atributos: O jogador escolhe dois atributos para comparação.
+
+- Menus dinâmicos: Após a escolha do primeiro atributo, o segundo atributo não pode ser o mesmo.
+
+- Comparação múltipla: Compara as cartas com base em dois atributos escolhidos, exibindo os valores de cada carta.
+
+- Soma dos atributos: A soma dos valores de ambos os atributos de cada carta é calculada e usada para determinar o vencedor.
+
+- Tratamento de empates: Caso as somas sejam iguais, o programa exibirá "Empate!".
+
+- Operador ternário: Utilizado para simplificar a comparação de quem venceu em cada atributo.
